@@ -1,0 +1,10 @@
+name: harish
+role: devops engineer
+experience: 1 years
+learning: true
+tools: 
+  - docker
+  - kubernetes
+  - terraform
+  - ansible
+hobbies: [ listening music, playing cricket, reading books ]

@@ -1,0 +1,15 @@
+server:
+  name: dbsql
+  ip: 12.7.4.1
+  port: 80
+database:
+  host: db.internal.local
+  name: mydb
+  credentials:
+    username: admin
+    password: admin123
+startup_script: >
+  #!/bin/bash \n
+  echo "Starting server..."
+  service nginx start
+  service mysql start
